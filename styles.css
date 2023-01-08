@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(215, 240, 255);
+  font-family: "Roboto", sans-serif;
+}
+form {
+  background-color: rgb(233, 236, 236);
+  border-radius: 6px;
+  width: 40rem;
+  margin: auto;
+  padding: 1rem;
+  font-size: 1rem;
+  box-shadow: 1px 2px 6px rgba(29, 26, 24, 0.2);
+}
+section {
+  margin-bottom: 1rem;
+}
+label {
+  color: rgb(47, 47, 82);
+  display: block;
+  margin: 0.5rem 0;
+}
+textarea {
+  resize: none;
+}
+option {
+  padding: 0.5rem;
+}
+input,
+textarea,
+select {
+  font: inherit;
+  padding: 0.5rem;
+  width: 100%;
+  border: 1px solid rgb(124, 130, 131);
+  border-radius: 3px;
+  display: block;
+  box-sizing: border-box;
+}
+input:focus,
+textarea:focus {
+  background-color: rgb(200, 217, 228);
+}
+h2 {
+  margin: 0.5rem;
+}
+h1 {
+  margin: 2rem;
+  font-size: 30px;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+button {
+  font: inherit;
+  border: 1px solid rgb(53, 62, 100);
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+.btn-clear{
+background-color: transparent;
+color: rgb(53, 62, 100);
+}
+.btn-clear:hover{
+  background-color: rgb(156, 167, 177);
+}
+.btn-fill{
+  background-color: rgb(53, 62, 100);
+  color: white;
+}
+.btn-fill:hover{
+  background-color: rgb(85, 92, 124);
+  border-color: rgb(64, 71, 100);
+}
+.radio {
+  display: flex;
+}
+.radio input {
+  width: auto;
+}
+.radio label{
+  margin: 0;
+  margin-left: 0.5rem;
+}
+#form-actions{
+  text-align: right;
+}
